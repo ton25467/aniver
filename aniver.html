@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Happy Anniversary 💖</title>
+<link rel="stylesheet" href="aniver.css" />
+</head>
+<body>
+<div id="anniversary" class="hidden">
+  <div class="message">💖 Happy Anniversary! 💖</div>
+  <div class="body">
+</div>
+
+<div class="color-target"></div>
+
+<script>
+  // 1. Get the collection of elements by class name
+  const elements = document.getElementsByClassName('color-target');
+
+  // 2. Change the background color of the first element in the collection (index 0)
+  if (elements.length > 0) {
+    elements[0].style.background = 'radial-gradient(circle at center, #ffb6c1, #ff69b4, #ff1493)';
+  }
+</script>
+<script src="aniver2.js"></script>
+</body>
+</html>
